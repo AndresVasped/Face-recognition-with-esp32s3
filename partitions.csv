@@ -1,0 +1,7 @@
+# Name,           Type, SubType, Offset,   Size,    Flags
+nvs,               data, nvs,     0x9000,   0x5000,
+otadata,           data, ota,     0xe000,   0x2000,
+app0,              app,  ota_0,   0x10000,  0x800000,
+spiffs,            data, spiffs,  0x810000, 0x300000,
+human_face_det,    data, 0x40,    0xB10000, 0x80000,
+human_face_feat,   data, 0x41,    0xB90000, 0x200000,
